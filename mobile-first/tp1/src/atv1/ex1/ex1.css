@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+[class*=box-] {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.box-1 {
+    background-color: red;
+}
+
+.box-2 {
+    background-color: blue;
+}
+
+.box-3 {
+    background-color: yellow;
+}
