@@ -1,9 +1,9 @@
 import React from 'react';
-import './ex1.css';
+import './ex1atv1.css';
 
-function Ex1() {
+function Ex1atv1() {
   return (
-    <div className='container'>
+    <div className='ex1atv1_container'>
       <div className='box-1' />
       <div className='box-2' />
       <div className='box-3' />
@@ -11,4 +11,4 @@ function Ex1() {
   );
 }
 
-export default Ex1;
+export default Ex1atv1;

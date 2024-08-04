@@ -3,3 +3,8 @@
     box-sizing: border-box;
     margin: 0;
 }
+
+.atividade-num {
+    text-align: center;
+    margin: 10px 0;
+}
