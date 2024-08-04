@@ -1,0 +1,22 @@
+.ex1atv2_container {
+    display: flex;
+}
+
+[class*=ex1atv2_box-] {
+    width: 100px;
+    height: 100px;
+
+}
+
+.ex1atv2_box-1 {
+    flex-grow: 2;
+    background-color: steelblue;
+}
+
+.ex1atv2_box-2 {
+    background-color: blue;
+}
+
+.ex1atv2_box-3 {
+    background-color: purple;
+}
