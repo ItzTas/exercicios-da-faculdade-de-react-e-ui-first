@@ -1,0 +1,26 @@
+.ex2atv2_container {
+    display: flex;
+}
+
+[class*=ex2atv2_box-] {
+    width: 400px;
+    height: 400px;
+    border: 2px solid black;
+}
+
+.ex2atv2_box-1 {
+    background-color: red;
+}
+
+.ex2atv2_box-2 {
+    background-color: blue;
+}
+
+.ex2atv2_box-3 {
+    background-color: yellow;
+    flex-shrink: 0.3;
+}
+
+.ex2atv2_box-4 {
+    background-color: green;
+}
