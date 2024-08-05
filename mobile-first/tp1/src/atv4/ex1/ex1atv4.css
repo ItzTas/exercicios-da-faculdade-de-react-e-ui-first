@@ -1,0 +1,39 @@
+.ex1atv4_outer-container {
+    display: flex;
+    width: 100%;
+    gap: 5px;
+}
+
+.ex1atv4_inner-container {
+    display: flex;
+    flex-direction: column;
+}
+
+[class*=ex1atv4_box-] {
+    width: 100px;
+    height: 100px;
+}
+
+.ex1atv4_box-1 {
+    background-color: red;
+}
+
+.ex1atv4_box-2 {
+    background-color: blue;
+}
+
+.ex1atv4_box-3 {
+    background-color: yellow;
+}
+
+.ex1atv4_box-4 {
+    background-color: purple;
+}
+
+.ex1atv4_box-5 {
+    background-color: green;
+}
+
+.ex1atv4_box-6 {
+    background-color: grey;
+}

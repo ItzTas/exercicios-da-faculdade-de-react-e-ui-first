@@ -9,6 +9,10 @@ import Ex1atv3 from './atv3/ex1/ex1atv3';
 import Ex2atv3 from './atv3/ex2/ex2atv3';
 import Ex3atv3 from './atv3/ex3/ex3atv3';
 import Ex4atv3 from './atv3/ex4/ex4atv3';
+import Ex1atv4 from './atv4/ex1/ex1atv4';
+import Ex2atv4 from './atv4/ex2/ex2atv4';
+import Ex1atv5 from './atv5/ex1/ex1atv5';
+import Ex2atv5 from './atv5/ex2/ex2atv5';
 
 export default function App() {
   return (
@@ -48,6 +52,31 @@ export default function App() {
       <section>
         <h2 className='atividade-num'>Atividade 9</h2>
         <Ex4atv3 />
+      </section>
+      <section>
+        <h2 className='atividade-num'>Atividade 10</h2>
+        <Ex1atv4 />
+      </section>
+      <section>
+        <h2 className='atividade-num'>Atividade 11</h2>
+        <Ex2atv4 />
+      </section>
+      <section>
+        <h2 className='atividade-num'>Atividade 12</h2>
+        <Ex1atv5 />
+      </section>
+      <section>
+        <h2 className='atividade-num'>Atividade 13</h2>
+        <Ex2atv5 />
+      </section>
+      <section>
+        <h2 className='atividade-num'>Atividade 14</h2>
+      </section>
+      <section>
+        <h2 className='atividade-num'>Atividade 15</h2>
+      </section>
+      <section>
+        <h2 className='atividade-num'>Atividade 16</h2>
       </section>
     </main>
   );
