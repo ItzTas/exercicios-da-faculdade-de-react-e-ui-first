@@ -1,0 +1,26 @@
+.ex2atv6_container {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.ex2atv6_box {
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+}
+
+.ex2atv6_box:nth-child(1) {
+    grid-column: span 2;
+    background-color: red;
+    height: unset;
+    width: unset;
+}
+
+.ex2atv6_box:nth-child(2) {
+    grid-row: span 2;
+    background-color: blue;
+    height: unset;
+    width: unset;
+}

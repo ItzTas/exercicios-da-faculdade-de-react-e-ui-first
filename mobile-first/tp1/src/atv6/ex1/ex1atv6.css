@@ -1,0 +1,12 @@
+.ex1atv6_container {
+    display: grid;
+    gap: 10px;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.ex1atv6_box {
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+}
