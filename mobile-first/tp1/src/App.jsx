@@ -7,6 +7,8 @@ import Ex2atv2 from './atv2/ex2/ex2atv2';
 import Ex3atv2 from './atv2/ex3/ex3atv2';
 import Ex1atv3 from './atv3/ex1/ex1atv3';
 import Ex2atv3 from './atv3/ex2/ex2atv3';
+import Ex3atv3 from './atv3/ex3/ex3atv3';
+import Ex4atv3 from './atv3/ex4/ex4atv3';
 
 export default function App() {
   return (
@@ -38,6 +40,14 @@ export default function App() {
       <section>
         <h2 className='atividade-num'>Atividade 7</h2>
         <Ex2atv3 />
+      </section>
+      <section>
+        <h2 className='atividade-num'>Atividade 8</h2>
+        <Ex3atv3 />
+      </section>
+      <section>
+        <h2 className='atividade-num'>Atividade 9</h2>
+        <Ex4atv3 />
       </section>
     </main>
   );

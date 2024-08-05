@@ -8,7 +8,6 @@ function Ex2atv3() {
       <div className='ex2atv3_box-2' />
       <div className='ex2atv3_box-3' />
       <div className='ex2atv3_box-4' />
-      <div className='ex2atv3_box-5' />
     </div>
   );
 }
