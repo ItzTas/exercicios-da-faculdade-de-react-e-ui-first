@@ -1,0 +1,10 @@
+.ex3atv6_container {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: 1fr, 2fr, 3fr;
+    height: 700px;
+}
+
+.ex3atv6_box {
+    border: 2px solid black;
+}

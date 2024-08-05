@@ -15,6 +15,7 @@ import Ex1atv5 from './atv5/ex1/ex1atv5';
 import Ex2atv5 from './atv5/ex2/ex2atv5';
 import Ex1atv6 from './atv6/ex1/ex1atv6';
 import Ex2atv6 from './atv6/ex2/ex2atv6';
+import Ex3atv6 from './atv6/ex3/ex3atv6';
 
 export default function App() {
   return (
@@ -81,6 +82,7 @@ export default function App() {
       </section>
       <section>
         <h2 className='atividade-num'>Atividade 16</h2>
+        <Ex3atv6 />
       </section>
     </main>
   );
