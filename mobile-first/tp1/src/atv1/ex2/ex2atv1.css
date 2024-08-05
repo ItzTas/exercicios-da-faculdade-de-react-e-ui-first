@@ -1,22 +1,22 @@
-.container {
+.ex2atv1_container {
     display: flex;
     flex-direction: column-reverse;
 }
 
-[class*=box-] {
+[class*=ex2atv1_box-] {
     width: 100px;
     height: 100px;
     border: 1px solid black;
 }
 
-.box-1 {
+.ex2atv1_box-1 {
     background-color: red;
 }
 
-.box-2 {
+.ex2atv1_box-2 {
     background-color: blue;
 }
 
-.box-3 {
+.ex2atv1_box-3 {
     background-color: yellow;
 }
