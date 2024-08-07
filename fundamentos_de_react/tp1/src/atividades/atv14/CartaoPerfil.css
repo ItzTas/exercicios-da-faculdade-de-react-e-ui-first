@@ -1,0 +1,30 @@
+.cartao-perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px auto;
+    max-width: 700px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 2px 5px rgba(0, 0, 0, 0.75);
+}
+
+.cartao-perfil h2 {
+    margin-bottom: 17px;
+}
+
+.cartao-img {
+    width: 400px;
+    border-radius: 10px;
+    transition: all 0.2s;
+}
+
+.cartao-img:hover {
+    filter: brightness(70%);
+}
+
+.cartao-desc {
+    text-align: center;
+    margin-top: 10px;
+}
