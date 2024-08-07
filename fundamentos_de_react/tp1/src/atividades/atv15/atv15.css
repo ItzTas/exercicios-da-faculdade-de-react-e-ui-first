@@ -1,0 +1,79 @@
+.portifolio {
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: rgba(173, 216, 230, 1);
+    margin: 20px auto;
+    width: 80vw;
+    padding: 15px;
+    min-width: 550px;
+    box-shadow: 0px 8px 1px 0px rgba(0, 0, 0, 1);
+}
+
+.portifolio ul {
+    list-style-type: none;
+}
+
+.portifolio .projetos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projetos h2 {
+    text-align: center;
+    margin: 3px 0 10px 0;
+}
+
+.portifolio .projetos ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 2px;
+}
+
+.portifolio .projetos ul li {
+    border: 2px solid black;
+    border-radius: 5px;
+    white-space: nowrap;
+    text-align: center;
+    background-color: rgba(0, 191, 255, 0.3);
+    padding: 10px;
+    box-shadow: 0px 8px 1px 0px rgba(0, 0, 0, 1);
+}
+
+.portifolio *:active {
+    filter: brightness(160%);
+}
+
+.portifolio .projetos ul li:hover {
+    filter: brightness(120%);
+}
+
+.portifolio .contatos ul {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 5vw;
+    margin-top: 15px;
+}
+
+.portifolio .contatos a {
+    font-weight: bold;
+    color: rgba(0, 0, 139, 1);
+}
+
+.portifolio .contatos a:hover {
+    color: rgba(70, 130, 180, 0.5);
+}
+
+.portifolio .portifolio-header {
+    box-shadow: 0px 8px 1px 0px rgba(0, 0, 0, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(70, 130, 180, 0.5);
+    border-radius: 8px;
+    border: 1px solid black;
+    margin: 10px 0;
+    padding: 5px;
+}
